@@ -1,6 +1,7 @@
-def pozdro():
-    print("Hello")
+def palindrom(x):
+    """
+        Funkcja sprawdza czy dany wyraz jest palindromem
+    """
+    return "True" if x == x[::-1] else "False"
 
-pozdro()
-
-print("test")
+print(palindrom("potop"))
