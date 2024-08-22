@@ -7,3 +7,5 @@ def palindrom(x):
 print(palindrom("potop"))
 
 help(palindrom)
+
+print("test")
