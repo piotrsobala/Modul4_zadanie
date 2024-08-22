@@ -5,3 +5,5 @@ def palindrom(x):
     return "True" if x == x[::-1] else "False"
 
 print(palindrom("potop"))
+
+help(palindrom)
